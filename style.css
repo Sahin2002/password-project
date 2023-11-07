@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100%;
+    height: 400px;
+    background-color: #06142e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+div span {
+    display: inline-block;
+    width: fit-content;
+    background-color: #fbe4d8;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+div button {
+    width: fit-content;
+    padding: 10px 50px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+   
+}
+
+div .click {
+    background-color: #06142e;
+    border:2px solid  green;
+}
+
+div .copy {
+    background-color: #06142e;
+    border:2px solid red;
+}
+
+.click:hover {
+    transition: .2s;
+    background-color: green;
+   
+}
+.copy:hover {
+    transition: .2s;
+    background-color: red;
+    color:#fff;
+ 
+}
+p{
+    text-align: center;
+    color:green;
+    font-size: 20px;
+}
